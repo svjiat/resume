@@ -93,7 +93,7 @@ header a:hover{
 }
 
 
-/* main content */
+/* main content (middle section) */
 
 .columns{
     display: grid;
@@ -133,7 +133,7 @@ header a:hover{
 }
 
 
-/* media Quaries */
+/* media Quaries starts here */
 
 @media (min-width:1445px){
 body{
@@ -158,6 +158,10 @@ body{
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+#footer{
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 }
 @media(max-width:750px){
@@ -249,6 +253,9 @@ body{
 }
 
 #footer a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     text-decoration: none;
     color: rgb(122, 122, 122);
     font-size: 1.5em;
