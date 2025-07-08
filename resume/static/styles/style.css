@@ -159,10 +159,6 @@ body{
     justify-content: center;
     text-align: center;
 }
-#footer{
-    flex-direction: column;
-    flex-wrap: wrap;
-}
 }
 @media(max-width:750px){
     .topics{
@@ -245,6 +241,7 @@ body{
 
 #footer{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: center;
