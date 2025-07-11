@@ -265,6 +265,11 @@ body{
     color:lightblue;
 }
 
+#footer img{
+    height: 1.5em; 
+    width: 1.5em; 
+    margin-left: 2em;
+}
 
 /* form part */
 
