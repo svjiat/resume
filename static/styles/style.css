@@ -82,6 +82,9 @@ header a:hover{
     list-style: none;
     padding-right: 1em;
 }
+.topics li{
+    margin-bottom: 1em;
+}
 
 .topics a{
     text-decoration: none;
